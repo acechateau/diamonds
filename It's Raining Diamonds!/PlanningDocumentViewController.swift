@@ -1,4 +1,4 @@
-   import UIKit
+import UIKit
 
    class PlanningDocumentViewController: UIViewController {
        @IBOutlet weak var Text: UITextView!
@@ -12,5 +12,6 @@
        @IBAction func Save(_ sender: Any) {
            myText = Text.text
            myName = Name.text!
+           // Add logic for user-modifiable title and main text body
        }
    }
